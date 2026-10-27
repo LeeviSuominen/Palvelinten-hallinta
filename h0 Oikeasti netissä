@@ -21,3 +21,9 @@ Aloitin päivittämällä järjestelmän kommenolla sudo apt update, jonka jälk
 Tarkistin, että palomuuri toimii komennolla sudo ufw status. 
 Asensin Apache2 webpalvelimen komennolla sudo apt install apache2 ja tarkistin, että se toimii komennolla systemctl status apache2.
 Menin selaimeen ja annoin osoitteeksi http://localhost, jonka jälkeen näytölle ilmestyi Apache2 default sivun, joten tiestin, että tehtävä onnistui.
+
+Lähteet: 
+https://github.com/punnalathomas/linux-course/blob/main/h1-installing-linux.md Luettu 27.10.2026
+https://github.com/AONCODES/linux-course/blob/main/h4.md Luettu 27.10.2026
+https://partanennn.github.io/linux-servers/practices/fifth-week.html Luettu 27.10.2026
+
