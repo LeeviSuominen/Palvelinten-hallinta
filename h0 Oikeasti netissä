@@ -1,1 +1,23 @@
-testi
+x) Niemi 2025: 
+- Niemen artikkelissa käydään läpi miten virtuaalipalvelin hankitaan ja otetaan käyttöön.
+- Aluksi luodaan oma käyttäjä ja sitten otetaan SSH käyttöön.
+- ufw allow 22/tcp
+- Web palvelin palvelimelle -> testataan toimivuus
+- Kysymys: Miksi root tili piti lukita?
+
+Partanen 2025: 
+- Domain hankitaan namecheapilta.
+- Huomio: Domain nimen paljon helpompi käyttää kuin IP-osoite.
+
+a) 
+Asensin Debian 13 Virtualbox virtuaalikoneeseen ja annoin sille seuraavat parametrit:
+- 4090mb
+- 2 prosessoria
+- 50GB levytilaa
+Asennus onnistui nopeasti ja helposti, ei tullut ongelmia, kun seurasin Punnala Thomaksen ohjetta githubista. Otin paljon kuvia tehtävän aikana, mitkä löytyy pictures kansiosta.
+
+f) Vaihtoehtotehtävä
+Aloitin päivittämällä järjestelmän kommenolla sudo apt update, jonka jälkeen sudo apt -y full upgrade. Asensin ufw palomuurin komennolla sudo apt install ufw ja sallin ssh sekä http liikenteen komennoilla sudo ufw allow 22/tcp, sekä sudo ufw allow 80/tcp, jonka jälkeen annoin komennon sudo ufw enable.
+Tarkistin, että palomuuri toimii komennolla sudo ufw status. 
+Asensin Apache2 webpalvelimen komennolla sudo apt install apache2 ja tarkistin, että se toimii komennolla systemctl status apache2.
+Menin selaimeen ja annoin osoitteeksi http://localhost, jonka jälkeen näytölle ilmestyi Apache2 default sivun, joten tiestin, että tehtävä onnistui.
