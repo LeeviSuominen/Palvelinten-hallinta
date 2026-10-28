@@ -24,6 +24,10 @@ Menin selaimeen ja annoin osoitteeksi http://localhost, jonka jälkeen näytöll
 
 Lähteet: 
 https://github.com/punnalathomas/linux-course/blob/main/h1-installing-linux.md Luettu 27.10.2026
+
 https://github.com/AONCODES/linux-course/blob/main/h4.md Luettu 27.10.2026
+
 https://partanennn.github.io/linux-servers/practices/fifth-week.html Luettu 27.10.2026
+
+OpenAI ChatGPT, tekninen neuvonta, syntaxin tarkistus, 27.10.2026.
 
