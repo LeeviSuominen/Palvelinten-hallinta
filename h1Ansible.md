@@ -35,6 +35,9 @@ Aloitin tehtävän komennoilla:
 
 - exit (sulkee SSH istunnon)
 
+<img width="815" height="530" alt="Screenshot 2026-10-29 155839" src="https://github.com/user-attachments/assets/fa9c00cb-8621-42ec-804f-9cc5bf9aa1f5" />
+
+
 
 c) Sitten kun olin varmistunut siitä, että SSH on latautunut ja toimii oikein oli aika luoda avainpari, jotta voin kirjautua julkisella avaimella. Siihen käytin
 komentoja:
@@ -66,6 +69,9 @@ ansible_python_interpreter=/usr/bin/python3
 Testasin Ansiblen toiminnan komennolla: ansible all -a 'uptime' -i hosts.ini
 Komento suoritti uptime-komennon localhostilla ja palautti onnistuneen vastauksen, joten Ansible pystyi käyttämään SSH-yhteyttä.
 
+<img width="823" height="517" alt="Screenshot 2026-11-04 124844" src="https://github.com/user-attachments/assets/92babaaf-1fc2-441a-ac86-6bd8fb0f0de4" />
+
+
 Seuraavaksi loin asetustiedoston:
 micro ansible.cfg
 
@@ -76,6 +82,10 @@ Määritin sen sisällöksi vastaavan:
 inventory = hosts.ini
 
 Tämän ansiosta hosts.ini-tiedostoa ei tarvinnut enää määrittää jokaisen komennon yhteydessä.
+
+<img width="822" height="522" alt="Screenshot 2026-11-04 125334" src="https://github.com/user-attachments/assets/5d4e0539-8c50-4f12-b09b-acf5cedecc4d" />
+
+
 Sitten oli aika luoda playbook komnnolla: micro site.yml ja sisällöksi:
 
 - hosts: all
@@ -93,7 +103,10 @@ Playbook suoritettiin komennolla: ansible-playbook site.yml
 Ansible loi tiedoston /tmp/hello-ansible määritellyllä sisällöllä. Lopuksi tarkistin tiedoston sisällön: cat /tmp/hello-ansible
 Tuloksena näkyi: See you at TeroKarvinen.com!
 
-Ohjeita seuraamalla tehtävä oli suhteellisen simppeli. Kuvat minulla on erillisessä kansiossa "Picture", jos niitä kiinnostaa katsoa.
+<img width="831" height="632" alt="Screenshot 2026-11-04 130107" src="https://github.com/user-attachments/assets/2b4a2b83-bbe7-4825-90ba-c129a2cc3a49" />
+
+
+Ohjeita seuraamalla tehtävä oli suhteellisen simppeli. 
 
 Lähteet: 
 
