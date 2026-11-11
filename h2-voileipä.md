@@ -111,6 +111,7 @@ Esimerkki:
 
 ## a) Sudoless
 Tavoitteena oli luoda käyttäjä, joka voi käyttää sudoa ilman salasanan syöttämistä
+
 Aloitin luomalla uuden käyttäjän
 
 `sudo adduser antero`
