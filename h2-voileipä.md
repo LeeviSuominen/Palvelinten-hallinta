@@ -44,9 +44,9 @@ Esimerkki:
 #### ansible-doc apt
 ##### Johdanto
 apt moduulilla hallitaan Debian pohjaisten järjestelmien paketteja.
-name = paketin nimi.
-state = paketin tila.
-update_cache = päivittää pakettivarastot.
+- name = paketin nimi.
+- state = paketin tila.
+- update_cache = päivittää pakettivarastot.
 
 Esimerkki:
 ```
@@ -59,13 +59,13 @@ Esimerkki:
 #### ansible-doc file
 ##### Johdanto
 file moduulilla hallitaan tiedostojen ja hakemistojen ominaisuuksia.
-path = polku tiedostoon.
-recurse = käsittelee myös alihakemistot.
-src = lähde linkeille.
-state = tiedoston tila.
-owner = omistaja.
-group = ryhmä.
-mode = oikeudet.
+- path = polku tiedostoon.
+- recurse = käsittelee myös alihakemistot.
+- src = lähde linkeille.
+- state = tiedoston tila.
+- owner = omistaja.
+- group = ryhmä.
+- mode = oikeudet.
 
 Esimerkki:
 ```
@@ -78,13 +78,13 @@ Esimerkki:
 #### ansible-doc user
 ##### Johdanto
 user moduulilla luodaan ja hallitaan käyttäjiä.
-name = käyttäjän nimi.
-create_home = luo kotihakemiston.
-comment = käyttäjän kuvaus.
-groups = käyttäjäryhmät.
-shell = käytettävä komentotulkki.
-state = käyttäjän tila.
-system = järjestelmäkäyttäjä.
+- name = käyttäjän nimi.
+- create_home = luo kotihakemiston.
+- comment = käyttäjän kuvaus.
+- groups = käyttäjäryhmät.
+- shell = käytettävä komentotulkki.
+- state = käyttäjän tila.
+- system = järjestelmäkäyttäjä.
 
 Esimerkki:
 ```
@@ -97,8 +97,8 @@ Esimerkki:
 #### ansible-doc authorized_key
 ##### Johdanto
 authorized_key moduulilla lisätään SSH-julkisia avaimia käyttäjän authorized_keys-tiedostoon.
-user = käyttäjä.
-key = lisättävä julkinen avain.
+- user = käyttäjä.
+- key = lisättävä julkinen avain.
 
 Esimerkki: 
 ```
