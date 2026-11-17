@@ -42,7 +42,7 @@ Palvelun tila, esim: started, stopped.
 ## y) Infra-uutiset
 Valittu uutinen:  https://news.ycombinator.com/item?id=47865822
 - Agent Vault on suunniteltu hallitsemaan salasanoja, API avaimia ja muita käyttöoikeuksia keskitetysti.
-- Agent Vault on suunniteltu hallitsemaan salasanoja, API-avaimia ja muita käyttöoikeuksia keskitetysti.
+- Ratkaisun tavoitteena on vähentää tilannetta, jossa tunnuksia tallennetaan suoraan sovellusten asetuksiin tai lähdekoodiin.
 - Järjestelmä toimii välikerroksena palveluiden ja salaisuuksien välillä, jolloin tunnuksia voidaan hallita turvallisemmin.
 - Artikkelissa korostuu automaatio ja turvallisuus suurissa ympäristöissä
 
